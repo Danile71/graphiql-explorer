@@ -2646,9 +2646,9 @@ class Explorer extends React.PureComponent<Props, State> {
                   : null
               }
               style={{
-                ...styleConfig.styles.buttonStyle,
                 height: '22px',
                 width: '22px',
+                ...styleConfig.styles.buttonStyle,
               }}>
               <span>+</span>
             </button>
@@ -2720,7 +2720,7 @@ class Explorer extends React.PureComponent<Props, State> {
         <div
           style={{
             flexGrow: '1',
-            overflow: 'scroll',
+            overflow: 'auto',
           }}>
           {relevantOperations.map(
             (

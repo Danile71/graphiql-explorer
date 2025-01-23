@@ -2229,7 +2229,7 @@ class RootView extends React.PureComponent<
                 border: 'none',
                 borderBottom: '1px solid #888',
                 outline: 'none',
-                width: `${Math.max(4, operationDisplayName.length)}ch`,
+                width: `${Math.max(4, operationDisplayName.length + 2)}ch`,
               }}
               autoComplete="false"
               placeholder={`${capitalize(operationType)} Name`}
